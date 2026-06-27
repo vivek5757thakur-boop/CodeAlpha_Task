@@ -20,3 +20,14 @@ df = pd.DataFrame(
     books,
     columns=["Book Title", "Price", "Availability"]
 )
+# Clean price strings and convert to float before saving or analyzing
+df["Price"] = (
+    df["Price"]
+    .str.replace(r"[^0-9\.]+", "", regex=True)
+    .astype(float)
+)
+
+df.to_csv("books_data.csv", index=False)
+
+print("Dataset Saved Successfully!")
+print(df.head())
