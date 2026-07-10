@@ -1,0 +1,10 @@
+MIT LICENSE
+
+
+### requirements.txt
+
+```text
+requests
+beautifulsoup4
+pandas
+lxml
