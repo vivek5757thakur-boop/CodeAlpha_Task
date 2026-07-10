@@ -28,6 +28,18 @@ Columns:
 - Price
 - Rating
 - Availability
+## Output
+Dataset Saved Successfully!
+                              Book Title  Price Availability
+0                   A Light in the Attic  51.77     In stock
+1                     Tipping the Velvet  53.74     In stock
+2                             Soumission  50.10     In stock
+3                          Sharp Objects  47.82     In stock
+4  Sapiens: A Brief History of Humankind  54.23     In stock
+Total Books: 20
+Average Price: 38.048500000000004
+Highest Price: 57.25
+Lowest Price: 13.99
 
 ## ▶️ Run
 
